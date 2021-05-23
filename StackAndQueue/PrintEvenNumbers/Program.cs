@@ -28,7 +28,7 @@ namespace PrintEvenNumbers
                 }
             }
 
-            Console.WriteLine(string.Join(",", queueEvenIntegers.ToArray()));
+            Console.WriteLine(string.Join(", ", queueEvenIntegers.ToArray()));
         }
     }
 }
